@@ -38,9 +38,9 @@ https://mmcv.readthedocs.io/zh_CN/latest/get_started/installation.html
 
 MMDetection + MMPose
 
-![input](D:\mmstudy\MMPose_Tutorials-main\2023\inputs\input.jpg)
+![input](https://github.com/x-cosmic/openmmlab_study/blob/main/assignment01/input.jpg)
 
-![output](D:\mmstudy\MMPose_Tutorials-main\2023\outputs\output.jpg)
+![output](https://github.com/x-cosmic/openmmlab_study/blob/main/assignment01/output.jpg)
 
 7、测试
 
