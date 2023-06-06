@@ -29,39 +29,25 @@ https://mmcv.readthedocs.io/zh_CN/latest/get_started/installation.html
 
 （2）opencv的问题，需要降低opencv的版本
 
-注意，除了
+注意，除了pip install opencv-python=4.5.4.60
+还需要pip install opencv-python-headless==4.5.4.60 也就是说还需要处理这个headless.
 
-pip install opencv-python=4.5.4.60
-还需要
-
-pip install opencv-python-headless==4.5.4.60
-也就是说还需要处理这个headless.
-
-可通过
-
-pip list
-确认已安装的版本
+可通过 pip list 确认已安装的版本
 
 6、训练：
 
-MMDetection
+MMDetection + MMPose
 
+![input](D:\mmstudy\MMPose_Tutorials-main\2023\inputs\input.jpg)
 
-
-MMPose
-
-
+![output](D:\mmstudy\MMPose_Tutorials-main\2023\outputs\output.jpg)
 
 7、测试
 
-使用以下代码测试：
+使用以下代码得到预测图：
 
 python demo/topdown_demo_with_mmdet.py rtmdet_tiny_ear.py checkpoint/detect.pth rtmpose-s-ear.py checkpoint/pose.pth --input inputs/0101.jpg --output-root outputs --device cuda:0 --bbox-thr 0.5 --kpt-thr 0.5 --nms-thr 0.3 --radius 36 --thickness 30 --draw-bbox --draw-heatmap --show-kpt-idx
-测试图像没有使用自己的照片（不太好看哈哈），使用New Bing 生成了照片，然后测试：
-
-
-
- 
+测试图像没有使用自己的照片（不太好看哈哈），使用New Bing 生成了照片，然后测试
 
 
 
