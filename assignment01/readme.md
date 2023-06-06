@@ -38,10 +38,6 @@ https://mmcv.readthedocs.io/zh_CN/latest/get_started/installation.html
 
 MMDetection + MMPose
 
-![input](https://github.com/x-cosmic/openmmlab_study/blob/main/assignment01/input.jpg)
-
-![output](https://github.com/x-cosmic/openmmlab_study/blob/main/assignment01/output.jpg)
-
 7、测试
 
 使用以下代码得到预测图：
@@ -49,6 +45,8 @@ MMDetection + MMPose
 python demo/topdown_demo_with_mmdet.py rtmdet_tiny_ear.py checkpoint/detect.pth rtmpose-s-ear.py checkpoint/pose.pth --input inputs/0101.jpg --output-root outputs --device cuda:0 --bbox-thr 0.5 --kpt-thr 0.5 --nms-thr 0.3 --radius 36 --thickness 30 --draw-bbox --draw-heatmap --show-kpt-idx
 测试图像没有使用自己的照片（不太好看哈哈），使用New Bing 生成了照片，然后测试
 
+![input](https://github.com/x-cosmic/openmmlab_study/blob/main/assignment01/input.jpg)
 
+![output](https://github.com/x-cosmic/openmmlab_study/blob/main/assignment01/output.jpg)
 
 说明: 由于一些资源限制，MMPose我只用了210个epoch，默认是300epoch，如果跑完了300个效果可能更好哈！
