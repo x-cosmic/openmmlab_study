@@ -1,3 +1,0 @@
-mmengine - INFO - Evaluating bbox...
-mmengine - INFO - bbox_mAP_copypaste: 0.761 0.947 0.946 -1.000 -1.000 0.761
-mmengine - INFO - Epoch(val) [200][11/11]    coco/bbox_mAP: 0.7610  coco/bbox_mAP_50: 0.9470  coco/bbox_mAP_75: 0.9460  coco/bbox_mAP_s: -1.0000  coco/bbox_mAP_m: -1.0000  coco/bbox_mAP_l: 0.7610  data_time: 0.3384  time: 0.3776
