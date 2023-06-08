@@ -5,10 +5,9 @@
 
 （2）   将数据按8：2的比例区分了训练集和验证集，代码见data/split_data.py
 
-<img src=“https://github.com/x-cosmic/openmmlab_study/blob/main/assignment02/pictures/bing.png” style=“zoom:50” />
-
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment02/pictures/bing.png" width = "80%">
  
-
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment02/pictures/bing.png" style = "zoom:50">
 2. 训练时验证集的精度
 
    训练的config见 config/resnet50_fruits.py
