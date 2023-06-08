@@ -1,4 +1,5 @@
 源代码是在Linux下的，我平时项目都是在Windows，因此也在windows配置
+训练笔记：https://bbs.csdn.net/topics/615781130
 
 1、下载安装pytorch等，win系统配置的常规操作
 
