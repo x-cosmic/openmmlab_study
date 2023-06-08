@@ -7,19 +7,18 @@
 
 <img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment02/pictures/bing.png" width = "80%">
  
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment02/pictures/bing.png" style = "zoom:50">
 2. 训练时验证集的精度
 
    训练的config见 config/resnet50_fruits.py
-
-   ![3](C:\Users\kt_co\Desktop\3.png)
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment02/pictures/train.png" width = "80%">
 
 3. 测试图片
 
    （1）New Bing 生成图片
 
-   ![5](C:\Users\kt_co\Desktop\5.png)
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment02/pictures/bing.png" width = "80%">
 
 （2）测试结果
 
-![6](C:\Users\kt_co\Desktop\6.png)
+
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment02/pictures/result.png" width = "80%">
