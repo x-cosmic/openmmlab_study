@@ -5,7 +5,7 @@
 
 （2）   将数据按8：2的比例区分了训练集和验证集，代码见data/split_data.py
 
-![A screenshot of a computer folder  Description automatically generated with low confidence](file:///C:/Users/kt_co/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+<img src=“url” style=“zoom:50” />
 
  
 
