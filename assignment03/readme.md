@@ -15,13 +15,13 @@
 
 第一张图
 
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons1.png" width = "80%">
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons1_output_1.png" width = "80%">
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons1_output_2.png" width = "80%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons1.jpg" width = "80%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons1_output_1.jpg" width = "80%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons1_output_2.jpg" width = "80%">
 
 第二张图
 
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons2.png" width = "80%">
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons2_output_1.png" width = "80%">
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons2_output_2.png" width = "80%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons2.jpg" width = "80%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons2_output_1.jpg" width = "80%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/balloons2_output_2.jpg" width = "80%">
 
