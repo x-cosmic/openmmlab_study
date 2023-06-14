@@ -30,7 +30,7 @@ color_map = {
 <img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment04/pictures/Figure_1.png" width = "80%">
 
 
-第二张图，New Bing 生成的图 生成的图光影和自然图有些不同
+第二张图，New Bing 生成的图
 
 <img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment04/pictures/Figure_2.png" width = "80%">
 
