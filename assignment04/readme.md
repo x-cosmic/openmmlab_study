@@ -17,7 +17,7 @@ https://bbs.csdn.net/topics/615951096?spm=1001.2014.3001.6377
 python tools/test.py pspnet-WatermelonDataset.py work_dirs/WatermelonDataset/iter_3000.pth
 ```
 
-测试结果
+测试结果，超过了要求的指标
 
 <img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment04/pictures/test.png" width = "80%">
 
