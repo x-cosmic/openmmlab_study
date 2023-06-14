@@ -22,6 +22,7 @@ python tools/test.py pspnet-WatermelonDataset.py work_dirs/WatermelonDataset/ite
 <img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment04/pictures/test.png" width = "80%">
 
 ## 4、 预测
+
 预测的代码写在了predict.py中
 输出时自己重新设置了颜色显示方案：
 ```python
@@ -42,6 +43,7 @@ color_map = {
 第二张图，New Bing 生成的图
 
 <img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment04/pictures/Figure_2.png" width = "80%">
+
 
 
 
