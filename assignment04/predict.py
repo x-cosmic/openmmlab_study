@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     checkpoint_path = 'work_dirs/WatermelonDataset/iter_3000.pth'
     model = init_model(cfg, checkpoint_path, 'cuda:0')
-    img = mmcv.imread('datapre/denn-ke-11-7.jpg')
+    img = mmcv.imread('datapre/watermelon.jpg')
 
     result = inference_model(model, img)
     result.keys()
