@@ -34,7 +34,7 @@ color_map = {
         5: (255, 255, 255),  # 西瓜白籽
     }
 ```
-第一张图, val中的图
+第一张图, val 中的图
 
 <img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment04/pictures/Figure_1.png" width = "80%">
 
