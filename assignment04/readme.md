@@ -6,12 +6,12 @@ https://bbs.csdn.net/topics/615834324?spm=1001.2014.3001.6377
 ## 2、训练
 训练过程
 
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/trainval.png" width = "80%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment04/pictures/trainval.png" width = "80%">
 
 ## 3、测试
 测试结果
 
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment03/pictures/test.png" width = "80%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment04/pictures/test.png" width = "80%">
 
 ## 4、 可视化
 图片由New Bing 生成
