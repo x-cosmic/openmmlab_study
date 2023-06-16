@@ -17,6 +17,9 @@ pip3 install -e .
 ```
 
 ## 3.使用mmagic
+
+使用下面的代码，第一次运行提示显存不足，于是改成了cpu
+
 ```python
 import cv2
 import numpy as np
@@ -27,5 +30,25 @@ from mmagic.registry import MODELS
 from mmagic.utils import register_all_modules
 register_all_modules()
 cfg = Config.fromfile('configs/controlnet/controlnet-canny.py')
-controlnet = MODELS.build(cfg.model).cuda()
+controlnet = MODELS.build(cfg.model).cpu()
+
+control_url = 'C:/mmseg1/MMagic/mmagic/pic/maopifang.png'
+control_img = mmcv.imread(control_url)
+control = cv2.Canny(control_img, 100, 200)
+control = control[:, :, None]
+control = np.concatenate([control] * 3, axis=2)
+control = Image.fromarray(control)
+
+prompt = 'Room with blue walls and a yellow ceiling.'
+output_dict = controlnet.infer(prompt, control=control)
+samples = output_dict['samples']
+for idx, sample in enumerate(samples):
+    sample.save(f'sample_{idx}.png')
+controls = output_dict['controls']
+for idx, control in enumerate(controls):
+    control.save(f'control_{idx}.png')
+```
+提示安装：
+```
+pip install accelerate
 ```
