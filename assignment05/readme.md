@@ -72,7 +72,7 @@ Canny 边缘检测图
 咒语1：
 
 ```
-Room with green walls and a yellow ceiling.
+a room with green wall, yellow floor and blue roof
 ```
 
 效果图：
