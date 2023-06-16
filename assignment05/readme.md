@@ -32,7 +32,7 @@ register_all_modules()
 cfg = Config.fromfile('configs/controlnet/controlnet-canny.py')
 controlnet = MODELS.build(cfg.model).cpu()
 
-control_url = 'C:/mmseg1/MMagic/mmagic/pic/maopifang.png'
+control_url = '.../MMagic/mmagic/pic/maopifang.png'
 control_img = mmcv.imread(control_url)
 control = cv2.Canny(control_img, 100, 200)
 control = control[:, :, None]
