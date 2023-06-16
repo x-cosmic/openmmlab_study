@@ -47,10 +47,10 @@ prompt = 'Room with blue walls and a yellow ceiling.'
 output_dict = controlnet.infer(prompt, control=control)
 samples = output_dict['samples']
 for idx, sample in enumerate(samples):
-    sample.save(f'sample_{idx}.png')
+    sample.show()
 controls = output_dict['controls']
-for idx, control in enumerate(controls):
-    control.save(f'control_{idx}.png')
+for idx, control_item in enumerate(controls):
+    control_item.show()
 ```
 提示安装：
 ```
