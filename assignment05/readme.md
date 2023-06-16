@@ -77,7 +77,7 @@ a room with green wall, yellow floor and blue roof
 
 效果图：
 
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/output1.png" width = "30%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/output.png" width = "30%">
 
 咒语2：使用GPT-4生成咒语：
 
