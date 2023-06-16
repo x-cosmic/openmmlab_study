@@ -68,13 +68,16 @@ for idx, control_item in enumerate(controls):
 Canny 边缘检测图
 
 <img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/canny.png" width = "50%">
+
 咒语1：
+
 ```
 Room with green walls and a yellow ceiling.
 ```
+
 效果图：
 
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/ouput1.png" width = "50%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/output1.png" width = "50%">
 
 咒语2：使用GPT-4生成咒语：
 
@@ -83,5 +86,5 @@ The design should feature a modern minimalist style, with a bright color scheme,
 ```
 效果图：
 
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/ouput2.png" width = "50%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/output1.png" width = "50%">
 
