@@ -41,7 +41,7 @@ register_all_modules()
 cfg = Config.fromfile('configs/controlnet/controlnet-canny.py')
 controlnet = MODELS.build(cfg.model).cpu()
 
-control_url = 'C:/mmseg1/MMagic/mmagic/pic/house.jpg'
+control_url = '.../MMagic/mmagic/pic/house.jpg'
 control_img = mmcv.imread(control_url)
 control = cv2.Canny(control_img, 100, 200)
 control = control[:, :, None]
@@ -61,3 +61,17 @@ controls = output_dict['controls']
 for idx, control_item in enumerate(controls):
     control_item.show()
 ```
+毛坯房图：
+使用New Bing 生成
+
+Canny 边缘检测图
+
+咒语1：Room with green walls and a yellow ceiling.
+效果图：
+
+
+咒语2：使用GPT-4生成咒语：
+"The design should feature a modern minimalist style, with a bright color scheme, including an open-plan kitchen, a living room with ample natural light, two bedrooms with ensuite bathrooms, and a small office space. The main materials used should be light wood and white marble. Please ensure there is ample storage space throughout the apartment."
+效果图：
+
+
