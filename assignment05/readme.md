@@ -63,15 +63,18 @@ for idx, control_item in enumerate(controls):
 ```
 毛坯房图：
 使用New Bing 生成
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/house.jpg" width = "80%">
+
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/house.jpg" width = "50%">
 Canny 边缘检测图
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/canny.jpg" width = "80%">
+
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/canny.png" width = "50%">
 咒语1：
 ```
 Room with green walls and a yellow ceiling.
 ```
 效果图：
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/ouput1.jpg" width = "80%">
+
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/ouput1.png" width = "50%">
 
 咒语2：使用GPT-4生成咒语：
 
@@ -79,5 +82,6 @@ Room with green walls and a yellow ceiling.
 The design should feature a modern minimalist style, with a bright color scheme, including an open-plan kitchen, a living room with ample natural light, two bedrooms with ensuite bathrooms, and a small office space. The main materials used should be light wood and white marble. Please ensure there is ample storage space throughout the apartment.
 ```
 效果图：
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/ouput2.jpg" width = "80%">
+
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/ouput2.png" width = "50%">
 
