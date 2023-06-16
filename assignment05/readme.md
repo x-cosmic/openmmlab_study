@@ -86,5 +86,5 @@ The design should feature a modern minimalist style, with a bright color scheme,
 ```
 效果图：
 
-<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/output1.png" width = "30%">
+<img src="https://github.com/x-cosmic/openmmlab_study/blob/main/assignment05/pictures/output2.png" width = "30%">
 
