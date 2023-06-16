@@ -22,6 +22,11 @@ pip3 install -e .
 
 ## 3.使用mmagic
 
+提示安装：
+```
+pip install accelerate
+```
+
 使用下面的代码，第一次运行提示显存不足，于是改成了cpu
 
 ```python
@@ -43,16 +48,16 @@ control = control[:, :, None]
 control = np.concatenate([control] * 3, axis=2)
 control = Image.fromarray(control)
 
-prompt = 'Room with blue walls and a yellow ceiling.'
+prompt = 'Room with green walls and a yellow ceiling.'
 output_dict = controlnet.infer(prompt, control=control)
+```
+
+显示效果：
+```python
 samples = output_dict['samples']
 for idx, sample in enumerate(samples):
     sample.show()
 controls = output_dict['controls']
 for idx, control_item in enumerate(controls):
     control_item.show()
-```
-提示安装：
-```
-pip install accelerate
 ```
